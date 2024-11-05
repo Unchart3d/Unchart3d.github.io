@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+body {
+    background-color: #b8dbd9;
+    height: 100%;
+    margin: 20px;
+}
+
+#menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+ul {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(184, 219, 217, 0.9);
+}
+
+li {
+    border-right: 1px solid #bbb;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #004365;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.previousProjects {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.currentProject {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.previousProjectsContainer {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.currentProjectsContainer{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.projectCard {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .previousProjects {
+        max-width: 100%;
+    }
+}
