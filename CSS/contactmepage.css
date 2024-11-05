@@ -63,7 +63,7 @@ li:last-child {
     flex-direction: column;
     gap: 10px;
     border: black solid 3px;
-    border-radius: 50px;
+    border-radius: 40px;
     padding: 10px;
     justify-content: center;
 }
