@@ -54,14 +54,12 @@ li:last-child {
 .previousProjects {
     position: relative;
     max-width: 800px;
-    margin: auto;
     overflow: hidden;
 }
 
 .currentProject {
     position: relative;
     max-width: 800px;
-    margin: auto;
     overflow: hidden;
 }
 
