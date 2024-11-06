@@ -7,6 +7,7 @@ h1 {
 body {
     background-color: #b8dbd9;
     height: 100%;
+    margin: 0;
 }
 
 #menu {
@@ -44,7 +45,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #004365;
+    background-color: #ffa3a3;
 }
 
 li:last-child {
@@ -54,12 +55,14 @@ li:last-child {
 .previousProjects {
     position: relative;
     max-width: 800px;
+    margin: auto;
     overflow: hidden;
 }
 
 .currentProject {
     position: relative;
     max-width: 800px;
+    margin: auto;
     overflow: hidden;
 }
 

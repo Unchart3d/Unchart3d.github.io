@@ -7,7 +7,7 @@ h1 {
 body {
     background-color: #b8dbd9;
     height: 100%;
-    margin: 20px;
+    margin: 0;
 }
 
 #menu {
@@ -45,7 +45,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #004365;
+    background-color: #ffa3a3;
 }
 
 li:last-child {
@@ -89,11 +89,11 @@ button {
     width: 400px;
     margin: 0 auto;
     display: block;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px grey;
 }
 
 button:hover {
-    background-color: #004365;
+    background-color: #ffa3a3;
 }
 
 h2, p {
