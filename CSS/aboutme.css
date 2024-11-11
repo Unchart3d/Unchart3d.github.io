@@ -1,0 +1,246 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.profilePic {
+    width: 60%;
+    height: 80%;
+}
+
+body {
+    background-color: #b8dbd9;
+    height: 100%;
+    margin: 0;
+}
+
+#menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+ul {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6b6b;
+}
+
+li {
+    border-right: 1px solid #bbb;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffa3a3;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.skills-overview {
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-overview h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.skill-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.skill-item p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.skill-item:hover img {
+    filter: grayscale(0%);
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+}
+
+.sandbar {
+    height: 50px;
+    background: url('../images/sand.jpg') repeat center top, #f1c27d;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bubble-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bubble {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 150, 255, 0.6);
+    border-radius: 50%;
+    opacity: 0;
+    animation: bubbleAnimation 6s forwards ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+@keyframes bubbleAnimation {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-300px) scale(1.5);
+    }
+}
+
+.education {
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.education h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.degree {
+    background-color: #27496d;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.degree h3 {
+    font-size: 1.5rem;
+    color: #b8dbd9;
+}
+
+.degree p {
+    font-size: 1rem;
+    color: #b8dbd9;
+}
+
+.degree em {
+    font-style: italic;
+    color: #b8dbd9;
+}
+
+.degree strong {
+    color: #b8dbd9;
+}
+
+.degree p:last-child {
+    font-style: italic;
+    color: #b8dbd9;
+}
+
+.links {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.links h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.link-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.github-card {
+    background-color: #333;
+    color: #fff;
+}
+
+.linkedin-card {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
