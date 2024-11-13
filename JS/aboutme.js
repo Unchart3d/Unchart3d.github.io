@@ -1,12 +1,17 @@
-document.getElementById('bubble-link').addEventListener('click', function(event) {
-    event.preventDefault();
-    createBubbleStorm();
-});
+let hasRan = false;
+window.addEventListener('scroll', function(event) {
+    if((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        if (!hasRan) {
+            createBubbleStorm();
+            hasRan = true;
+        }
+    }
+})
 
 function createBubbleStorm() {
     const bubbleContainer = document.querySelector('.bubble-container');
 
-    const numberOfBubbles = 80;
+    const numberOfBubbles = 50;
 
     for (let i = 0; i < numberOfBubbles; i++) {
         createBubble(bubbleContainer);
