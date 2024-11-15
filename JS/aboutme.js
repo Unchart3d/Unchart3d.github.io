@@ -11,7 +11,7 @@ window.addEventListener('scroll', function(event) {
 function createBubbleStorm() {
     const bubbleContainer = document.querySelector('.bubble-container');
 
-    const numberOfBubbles = 50;
+    const numberOfBubbles = 100;
 
     for (let i = 0; i < numberOfBubbles; i++) {
         createBubble(bubbleContainer);
