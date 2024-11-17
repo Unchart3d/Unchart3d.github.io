@@ -1,5 +1,12 @@
 let hasRan = false;
-window.addEventListener('scroll', function(event) {
+let audio = document.getElementById('Spongebob')
+
+function playAudio(event) {
+    event.preventDefault();
+    audio.play();
+}
+
+window.addEventListener('scroll', function() {
     if((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         if (!hasRan) {
             createBubbleStorm();
@@ -11,7 +18,7 @@ window.addEventListener('scroll', function(event) {
 function createBubbleStorm() {
     const bubbleContainer = document.querySelector('.bubble-container');
 
-    const numberOfBubbles = 100;
+    const numberOfBubbles = 200;
 
     for (let i = 0; i < numberOfBubbles; i++) {
         createBubble(bubbleContainer);
@@ -37,7 +44,7 @@ function createBubble(bubbleContainer) {
     const floatDirection = Math.random() > 0.5 ? 1 : -1;
     const speed = Math.random() * 2 + 1;
 
-    bubble.style.animationDuration = `${speed + 5}s`;
+    bubble.style.animationDuration = `${speed + 10}s`;
 
     const horizontalMovement = floatDirection * Math.random() * 50;
     bubble.style.transform = `rotate(${Math.random() * 360}deg) translateX(${horizontalMovement}px)`;
