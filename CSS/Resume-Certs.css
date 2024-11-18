@@ -18,7 +18,7 @@ body {
     z-index: 10;
 }
 
-#menu ul {
+#menus {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -31,12 +31,12 @@ body {
     background-color: #ff6b6b;
 }
 
-li {
+#menus li {
     border-right: 1px solid #bbb;
     overflow: hidden;
 }
 
-li a {
+#menus li a {
     display: block;
     color: black;
     text-align: center;
@@ -44,11 +44,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#menus li a:hover {
     background-color: #ffa3a3;
 }
 
-li:last-child {
+#menus li:last-child {
     border-right: none;
 }
 
@@ -59,4 +59,17 @@ hr {
 
 h3 {
     padding-top: 30px;
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.experience {
+    font-weight: bold;
+}
+
+.re {
+    font-weight: bold;
 }
