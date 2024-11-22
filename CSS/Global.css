@@ -1,3 +1,57 @@
 * {
     font-family: 'Verdana', sans-serif;
 }
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+body {
+    background-color: #b8dbd9;
+    height: 100%;
+    margin: 0;
+}
+
+#menu {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#menus {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6b6b;
+}
+
+#menus li {
+    border-right: 1px solid #bbb;
+    overflow: hidden;
+}
+
+#menus li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menus li a:hover {
+    background-color: #ffa3a3;
+}
+
+#menus li:last-child {
+    border-right: none;
+}

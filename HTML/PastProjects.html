@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../CSS/Homepage.css"/>
+    <link rel="stylesheet" href="../CSS/PastProjects.css"/>
     <link rel="stylesheet" href="../CSS/Global.css"/>
 </head>
 <body>
 <header>
   <div id="menu">
-    <ul>
+    <ul id="menus">
       <li><a href="../index.html">Home</a></li>
       <li><a href="CurrentProjects.html">Current Projects</a></li>
       <li><a href="PastProjects.html">Past Projects</a></li>
@@ -20,6 +20,26 @@
     </ul>
   </div>
 </header>
-<h1>Past</h1>
+<h1>Past Projects</h1>
+<p>Explore my work and see what I've built! You can also check my <a href="SkillsandTechnologies.html">Skills and Technologies</a> page to see the technologies I've used.</p>
+
+<div class="slideshow-container">
+    <div class="project-card fade">
+        <img src="../images/bankaccount-1.png" alt="bankaccount" class="bankaccount">
+        <div class="text">Homepage</div>
+    </div>
+
+    <div class="project-card fade">
+        <img src="../images/bankaccount-2.png" alt="bankaccount" class="bankaccount">
+        <div class="text">Bank account information page</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<h3>Bank Account App</h3>
+<p>In this application, a user inputs their account number, first name, account number, and an initial balance. They are then brought to another
+page where it shows this inputted information as well as the ability to deposit and withdraw funds from their account.</p>
+<script src="../JS/PastProjects.js"></script>
 </body>
 </html>
