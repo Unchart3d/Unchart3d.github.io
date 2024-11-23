@@ -12,6 +12,27 @@
     width: 100%;
 }
 
+.fitnessapp {
+    width: 100%;
+}
+
+.pythonapapp {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.skirental {
+    width: 100%;
+}
+
+.t-shirt {
+    width: 100%;
+}
+
+.videorental {
+    width: 100%;
+}
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -37,13 +58,31 @@
 }
 
 .text {
-    color: rgba(0,0,0,0.8);
+    color: white;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
+}
+
+.text-1 {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 8px;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 5px;
 }
 
 .fade {
@@ -58,4 +97,8 @@
     to {
         opacity: 1
     }
+}
+
+h3 {
+    text-align: center;
 }
