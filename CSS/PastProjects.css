@@ -6,31 +6,71 @@
 
 .project-card {
     display: none;
+    margin-top: 100px;
 }
 
 .bankaccount {
     width: 100%;
+    margin-top: 100px;
 }
 
 .fitnessapp {
     width: 100%;
+    margin-top: 100px;
 }
 
 .pythonapapp {
     width: 100%;
     padding-top: 50px;
+    margin-top: 100px;
 }
 
 .skirental {
     width: 100%;
+    margin-top: 100px;
 }
 
 .t-shirt {
     width: 100%;
+    margin-top: 100px;
 }
 
 .videorental {
     width: 100%;
+    margin-top: 100px;
+}
+
+.pokemon {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.birb {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.donut {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.donut-slideshow .prev, .donut-slideshow .next {
+    color: white;
+}
+
+.UnityProject1 {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.project-card-9 .text, .project-card-10 .text, .donuts .text{
+    margin-bottom: 40px;
+}
+
+.UnityProject2 {
+    width: 100%;
+    margin-top: 100px;
 }
 
 .prev, .next {
@@ -83,6 +123,7 @@
     text-align: center;
     background-color: rgba(0,0,0,0.8);
     border-radius: 5px;
+    margin-top: 100px;
 }
 
 .fade {
@@ -101,4 +142,8 @@
 
 h3 {
     text-align: center;
+}
+
+.bankaccount, .fitnessapp, .pythonapapp, .skirental, .t-shirt, .videorental, .pokemon, .birb, .donut, .UnityProject1, .UnityProject2 {
+    box-shadow: 0 0 24px 16px rgba(0,0,0,0.75);;
 }
