@@ -8,6 +8,10 @@ h1 {
     padding-top: 30px;
 }
 
+h1 .hidden {
+    visibility: hidden;
+}
+
 body {
     background-color: #b8dbd9;
     height: 100%;
