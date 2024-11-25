@@ -1,19 +1,20 @@
-let hasRan = false;
-let audio = document.getElementById('Spongebob')
+let audio = document.getElementById('Spongebob');
 
 function playAudio(event) {
     event.preventDefault();
     audio.play();
 }
 
-window.addEventListener('scroll', function() {
-    if((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        if (!hasRan) {
-            createBubbleStorm();
-            hasRan = true;
-        }
+const bubbleContainer = document.querySelector('.bubble-container');
+
+const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+        createBubbleStorm();
+        observer.unobserve(bubbleContainer);
     }
-})
+});
+
+observer.observe(bubbleContainer);
 
 function createBubbleStorm() {
     const bubbleContainer = document.querySelector('.bubble-container');
