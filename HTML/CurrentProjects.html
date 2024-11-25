@@ -3,23 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../CSS/Homepage.css"/>
+    <link rel="stylesheet" href="../CSS/CurrentProjects.css"/>
     <link rel="stylesheet" href="../CSS/Global.css"/>
 </head>
 <body>
 <header>
-  <div id="menu">
-    <ul id="menus">
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="CurrentProjects.html">Current Projects</a></li>
-      <li><a href="PastProjects.html">Past Projects</a></li>
-      <li><a href="Aboutme.html">About Me</a></li>
-      <li><a href="SkillsandTechnologies.html">Skills & Technologies</a></li>
-      <li><a href="Resume-Certificates.html">Resume/Certificates</a></li>
-      <li><a href="ContactMe.html">Contact Me</a></li>
-    </ul>
-  </div>
+    <div id="menu">
+        <ul id="menus">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="CurrentProjects.html">Current Projects</a></li>
+            <li class="dropdown">
+                <a href="PastProjects.html">Past Projects</a>
+                <div class="dropdown-content">
+                    <a href="PastProjects.html#bank">Bank Account App</a>
+                    <a href="PastProjects.html#fitness">Fitness Tracking App</a>
+                    <a href="PastProjects.html#score">Score Tracking App</a>
+                    <a href="PastProjects.html#ski">Ski Rental App</a>
+                    <a href="PastProjects.html#tshirt">T-Shirt Tracking App</a>
+                    <a href="PastProjects.html#videos">Video Rental App</a>
+                    <a href="PastProjects.html#pokemon">Pokémon App</a>
+                    <a href="PastProjects.html#birb">Square Owl Render</a>
+                    <a href="PastProjects.html#donut">Donut Render</a>
+                    <a href="PastProjects.html#unity1">First Unity Project</a>
+                    <a href="PastProjects.html#unity2">Second Unity Project</a>
+                </div>
+            </li>
+            <li><a href="Aboutme.html">About Me</a></li>
+            <li><a href="SkillsandTechnologies.html">Skills & Technologies</a></li>
+            <li><a href="Resume-Certificates.html">Resume/Certificates</a></li>
+            <li><a href="ContactMe.html">Contact Me</a></li>
+        </ul>
+    </div>
 </header>
 <h1>Current Projects</h1>
+<p>Explore the projects I’m currently working on and see my latest work in action. You can also check my <a href="SkillsandTechnologies.html">Skills and Technologies</a> page to see the technologies I've used.</p>
+
+<div class="container" id="parks">
+    <div class="project-card">
+        <div class="text">Made with Python</div>
+        <img src="../images/NationalParkApp.png" alt="National Park Application" class="nationalpark">
+        <div class="text-1">Homepage</div>
+    </div>
+</div>
+<h3>National Park App</h3>
+<p>Currently working with a few others getting an app together where someone can search for a national park
+they have visited before. Once searched they will be able to put a marker down and name it. The parks will be dynamically saved to
+firebase and will be seen by whomever uses it.</p>
+
+<div class="container" id="prototype2">
+    <div class="project-card-1">
+        <div class="text">Made with Unity</div>
+        <img src="../images/Prototype2.png" alt="Prototype2" class="prototype">
+        <div class="text-1">Game Play</div>
+    </div>
+</div>
+<h3>Feed the Animals</h3>
+<p>In this game, animals are running toward the player. The player then throws steak towards the running animals
+and once the steak hits the animal, they both disappear.</p>
+
 </body>
 </html>

@@ -73,6 +73,11 @@
     margin-top: 100px;
 }
 
+.personal {
+    width: 100%;
+    margin-top: 100px;
+}
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -144,6 +149,6 @@ h3 {
     text-align: center;
 }
 
-.bankaccount, .fitnessapp, .pythonapapp, .skirental, .t-shirt, .videorental, .pokemon, .birb, .donut, .UnityProject1, .UnityProject2 {
-    box-shadow: 0 0 24px 16px rgba(0,0,0,0.75);;
+.bankaccount, .fitnessapp, .pythonapapp, .skirental, .t-shirt, .videorental, .pokemon, .birb, .donut, .UnityProject1, .UnityProject2, .personal {
+    box-shadow: 0 0 24px 16px rgba(0,0,0,0.75);
 }
