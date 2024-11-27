@@ -257,7 +257,7 @@
         animation-fill-mode: forwards;
     }
 
-    @keyframes fall-down {
+    @keyframes fall-down-mobile {
         0% {
             top: -30px;
             opacity: 1;
