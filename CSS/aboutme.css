@@ -252,13 +252,13 @@
         position: relative;
         top: -50px;
         left: 20px;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         background-image: url('../images/Anchor_SpongeBob.png');
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 9999;
-        animation: fall-down 8s linear;
+        animation: fall-down-mobile 8s linear;
         animation-fill-mode: forwards;
     }
 
