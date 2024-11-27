@@ -1,77 +1,22 @@
-.previousProjects {
+.previousProjects, .currentProjects {
     position: relative;
     max-width: 800px;
     margin: auto;
     overflow: hidden;
 }
 
-.currentProject {
-    position: relative;
-    max-width: 800px;
-    margin: auto;
-    overflow: hidden;
-}
-
-.previousProjectsContainer {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-}
-
-.currentProjectsContainer{
+.previousProjectsContainer, .currentProjectsContainer {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
 }
 
 .projectCard {
-    min-width: 100%;
+    flex: 0 0 100%;
     box-sizing: border-box;
 }
 
 img {
     width: 100%;
     height: auto;
-}
-
-@media only screen and (max-width: 600px) {
-    .previousProjects {
-        position: relative;
-        max-width: 800px;
-        margin: auto;
-        overflow: hidden;
-    }
-
-    .currentProject {
-        position: relative;
-        max-width: 800px;
-        margin: auto;
-        overflow: hidden;
-    }
-
-    .previousProjectsContainer {
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-        width: 100%;
-    }
-
-    .currentProjectsContainer{
-        display: flex;
-        transition: transform 0.5s ease-in-out;
-        width: 100%;
-    }
-
-    .projectCard {
-        min-width: 100%;
-        box-sizing: border-box;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
 }
