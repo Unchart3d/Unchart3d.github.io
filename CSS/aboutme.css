@@ -264,13 +264,13 @@
 
     @keyframes fall-down-mobile {
         0% {
-            /*top: -50px;*/
-            transform: translateY(0);
+            top: -50px;
+            /*transform: translateY(0);*/
             opacity: 1;
         }
         100% {
-            /*top: 85%;*/
-            transform: translateY(100%);
+            top: 85%;
+            /*transform: translateY(100%);*/
             opacity: 1;
         }
     }
