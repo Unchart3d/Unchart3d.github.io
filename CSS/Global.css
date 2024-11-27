@@ -80,6 +80,7 @@ body {
     }
     body {
         margin-top: 100px;
+        justify-content: center;
     }
     #menu {
         width: 100%;
