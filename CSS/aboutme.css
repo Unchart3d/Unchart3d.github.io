@@ -248,13 +248,22 @@
         margin: 0 auto;
     }
 
+    .falling-anchor {
+        position: relative;
+        top: -30px;
+        width: 80px;
+        height: 80px;
+        animation: fall-down-mobile 8s linear;
+        animation-fill-mode: forwards;
+    }
+
     @keyframes fall-down {
         0% {
-            top: -50px;
+            top: -30px;
             opacity: 1;
         }
         100% {
-            top: 93%;
+            top: 85%;
             opacity: 1;
         }
     }
