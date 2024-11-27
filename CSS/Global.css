@@ -116,7 +116,7 @@ body {
 
     .dropdown-content {
         display: none;
-        position: sticky;
+        position: relative;
         background-color: #f9f9f9;
         width: 100%;
     }
