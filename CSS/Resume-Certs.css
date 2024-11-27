@@ -19,3 +19,10 @@ h3 {
 .re {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    #skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
