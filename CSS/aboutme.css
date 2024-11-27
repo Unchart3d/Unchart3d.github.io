@@ -250,7 +250,7 @@
 
     .falling-anchor {
         position: relative;
-        top: -30px;
+        top: -80px;
         width: 80px;
         height: 80px;
         animation: fall-down-mobile 8s linear;
@@ -259,7 +259,7 @@
 
     @keyframes fall-down-mobile {
         0% {
-            top: -30px;
+            top: -80px;
             opacity: 1;
         }
         100% {
