@@ -264,7 +264,7 @@
 
     @keyframes fall-down-mobile {
         0% {
-            top: -50px;
+            top: 0;
             /*transform: translateY(0);*/
             opacity: 1;
         }
