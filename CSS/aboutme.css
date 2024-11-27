@@ -258,7 +258,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         z-index: 9999;
-        animation: fall-down-mobile 8s linear;
+        animation: fall-down-mobile 12s linear;
         animation-fill-mode: forwards;
     }
 
@@ -268,11 +268,8 @@
             /*transform: translateY(0);*/
             opacity: 1;
         }
-        50% {
-            top: 100px;
-        }
         100% {
-            top: 4000px;
+            top: 4200px;
             /*transform: translateY(100%);*/
             opacity: 1;
         }
