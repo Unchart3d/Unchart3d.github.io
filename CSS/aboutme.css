@@ -230,7 +230,7 @@
         opacity: 1;
     }
     100% {
-        top: 4200px;
+        top: 4100px;
         opacity: 1;
     }
 }
@@ -269,7 +269,7 @@
             opacity: 1;
         }
         100% {
-            top: 4200px;
+            top: 4300px;
             /*transform: translateY(100%);*/
             opacity: 1;
         }
