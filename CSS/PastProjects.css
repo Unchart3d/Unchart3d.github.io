@@ -6,53 +6,53 @@
 
 .project-card {
     display: none;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .bankaccount {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .fitnessapp {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .pythonapapp {
     width: 100%;
-    padding-top: 50px;
-    margin-top: 100px;
+    /*padding-top: 50px;*/
+    /*margin-top: 100px;*/
 }
 
 .skirental {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .t-shirt {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .videorental {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .pokemon {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .birb {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .donut {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .donut-slideshow .prev, .donut-slideshow .next {
@@ -61,7 +61,7 @@
 
 .UnityProject1 {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .project-card-9 .text, .project-card-10 .text, .donuts .text{
@@ -70,12 +70,12 @@
 
 .UnityProject2 {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .personal {
     width: 100%;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 
 .prev, .next {
@@ -107,7 +107,7 @@
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 8px;
+    bottom: 50px;
     width: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -116,12 +116,20 @@
     border-radius: 5px;
 }
 
+#fitness .text, #videos .text {
+    bottom: 200px;
+}
+
+#ski .text, #tshirt .text {
+    bottom: 80px;
+}
+
 .text-1 {
     color: white;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    top: 8px;
+    top: -50px;
     width: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -129,6 +137,10 @@
     background-color: rgba(0,0,0,0.8);
     border-radius: 5px;
     margin-top: 100px;
+}
+
+.description {
+    margin-top: 5px;
 }
 
 .fade {
@@ -147,6 +159,7 @@
 
 h3 {
     text-align: center;
+    margin-top: 100px;
 }
 
 .bankaccount, .fitnessapp, .pythonapapp, .skirental, .t-shirt, .videorental, .pokemon, .birb, .donut, .UnityProject1, .UnityProject2, .personal {
