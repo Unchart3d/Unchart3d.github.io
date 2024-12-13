@@ -59,3 +59,6 @@ function createBubble(bubbleContainer) {
 
 const root = document.documentElement;
 root.style.setProperty('--screen-height', `${window.screen.height}px`)
+
+const screenHeight = screen.height;
+console.log("screenHeight", screenHeight);
