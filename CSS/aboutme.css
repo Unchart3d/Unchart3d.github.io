@@ -1,5 +1,5 @@
 :root {
-    --screen-height: 100%;
+    --page-height: 100vh;
 }
 
 .img-container {
@@ -234,7 +234,7 @@
         opacity: 1;
     }
     100% {
-        top: calc(var(--screen-height));
+        top: calc(var(--page-height) - 250px);
         opacity: 1;
     }
 }
@@ -273,7 +273,7 @@
             opacity: 1;
         }
         100% {
-            top: 4500px;
+            top: calc(var(--page-height) - 250px);
             /*transform: translateY(100%);*/
             opacity: 1;
         }

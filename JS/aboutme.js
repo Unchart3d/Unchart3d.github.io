@@ -58,7 +58,11 @@ function createBubble(bubbleContainer) {
 }
 
 const root = document.documentElement;
-root.style.setProperty('--screen-height', `${screen.height}px`)
 
-const screenHeight = screen.height;
-console.log("screenHeight", screenHeight);
+function updatePageHeight() {
+    const pageHeight = document.body.scrollHeight;
+    root.style.setProperty('--page-height', `${pageHeight}px`);
+}
+
+updatePageHeight();
+window.addEventListener('resize', updatePageHeight);
