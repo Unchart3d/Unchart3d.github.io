@@ -234,7 +234,7 @@
         opacity: 1;
     }
     100% {
-        top: calc(var(--screen-height) + 2050px);
+        top: calc(var(--screen-height));
         opacity: 1;
     }
 }
