@@ -234,7 +234,7 @@
         opacity: 1;
     }
     100% {
-        top: calc(var(--page-height) - 20px);
+        top: calc(var(--page-height) - 50px);
         opacity: 1;
     }
 }
