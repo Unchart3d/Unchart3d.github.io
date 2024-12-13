@@ -1,3 +1,7 @@
+:root {
+    --screen-height: 100%;
+}
+
 .img-container {
     text-align: center;
 }
@@ -230,7 +234,7 @@
         opacity: 1;
     }
     100% {
-        top: 4000px;
+        top: calc(var(--screen-height) + 2050px);
         opacity: 1;
     }
 }

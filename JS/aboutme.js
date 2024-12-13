@@ -56,3 +56,6 @@ function createBubble(bubbleContainer) {
         bubble.remove();
     });
 }
+
+const root = document.documentElement;
+root.style.setProperty('--screen-height', `${window.screen.height}px`)
