@@ -167,7 +167,19 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-    #bank .text {
-        bottom: 150px;
+    #bank .text, #ski .text, #tshirt .text {
+        bottom: 135px;
+    }
+
+    #fitness .text {
+        bottom: 450px;
+    }
+
+    #videos .text {
+        bottom: 370px;
+    }
+
+    #score .text, #pokemon .text, #donut .text, #personal .text {
+        bottom: 80px;
     }
 }
