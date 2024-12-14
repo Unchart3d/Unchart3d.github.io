@@ -60,9 +60,8 @@ function createBubble(bubbleContainer) {
 const root = document.documentElement;
 
 function updatePageHeight() {
-    const pageHeight = document.body.scrollHeight;
-    console.log("pageHeight", pageHeight);
-    root.style.setProperty('--page-height', `${pageHeight}px`);
+    const contentHeight = document.body.offsetHeight;
+    root.style.setProperty('--page-height', `${contentHeight}px`);
 }
 
 updatePageHeight();
