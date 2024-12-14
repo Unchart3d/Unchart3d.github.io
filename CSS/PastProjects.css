@@ -78,6 +78,14 @@
     /*margin-top: 100px;*/
 }
 
+.nationalpark {
+    width: 100%;
+}
+
+.prototype {
+    width: 100%;
+}
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -120,7 +128,7 @@
     bottom: 200px;
 }
 
-#ski .text, #tshirt .text {
+#ski .text, #tshirt .text, #parks .text {
     bottom: 80px;
 }
 
