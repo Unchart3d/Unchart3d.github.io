@@ -54,3 +54,7 @@ h3 {
 .nationalpark, .prototype {
     box-shadow: 0 0 24px 16px rgba(0,0,0,0.75);
 }
+
+h2 {
+    text-align: center;
+}
