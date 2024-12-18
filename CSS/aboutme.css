@@ -269,12 +269,10 @@
     @keyframes fall-down-mobile {
         0% {
             top: 0;
-            /*transform: translateY(0);*/
             opacity: 1;
         }
         100% {
-            top: calc(var(--page-height) - 100px);
-            /*transform: translateY(100%);*/
+            top: 100vh;
             opacity: 1;
         }
     }
