@@ -94,6 +94,14 @@
     width: 100%;
 }
 
+.jumpy {
+    width: 100%;
+}
+
+.soccer {
+    width: 100%;
+}
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -136,8 +144,12 @@
     bottom: 200px;
 }
 
-#ski .text, #tshirt .text, #parks .text, #clicky-crates .text, #farm .text {
+#ski .text, #tshirt .text, #parks .text, #clicky-crates .text, #farm .text, #soccer .text {
     bottom: 80px;
+}
+
+#jumpyboi .text {
+    bottom: 60px;
 }
 
 .text-1 {
