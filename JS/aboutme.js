@@ -62,7 +62,8 @@ const root = document.documentElement;
 function updatePageHeight() {
     const contentHeight = document.body.offsetHeight;
     root.style.setProperty('--page-height', `${contentHeight}px`);
+    console.log(contentHeight);
 }
 
 updatePageHeight();
-// window.addEventListener('resize', updatePageHeight);
+window.addEventListener('resize', updatePageHeight);

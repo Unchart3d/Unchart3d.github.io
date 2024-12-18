@@ -234,7 +234,7 @@
         opacity: 1;
     }
     100% {
-        top: calc(100vh + var(--page-height) - 1200px);
+        top: calc(100vh + var(--page-height) + 100px);
         opacity: 1;
     }
 }
@@ -272,7 +272,7 @@
             opacity: 1;
         }
         100% {
-            top: 100vh;
+            top: calc(var(--page-height) - 100px);
             opacity: 1;
         }
     }
