@@ -234,7 +234,7 @@
         opacity: 1;
     }
     100% {
-        top: calc(100vh + var(--page-height));
+        top: calc(100vh + var(--page-height) - 1200px);
         opacity: 1;
     }
 }

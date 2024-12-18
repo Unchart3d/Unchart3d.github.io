@@ -65,4 +65,4 @@ function updatePageHeight() {
 }
 
 updatePageHeight();
-window.addEventListener('resize', updatePageHeight);
+// window.addEventListener('resize', updatePageHeight);
