@@ -86,6 +86,14 @@
     width: 100%;
 }
 
+.clicky {
+    width: 100%;
+}
+
+.farmlearning {
+    width: 100%;
+}
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -128,7 +136,7 @@
     bottom: 200px;
 }
 
-#ski .text, #tshirt .text, #parks .text {
+#ski .text, #tshirt .text, #parks .text, #clicky-crates .text, #farm .text {
     bottom: 80px;
 }
 
@@ -187,7 +195,7 @@ h3 {
         bottom: 370px;
     }
 
-    #score .text, #pokemon .text, #donut .text, #personal .text {
+    #score .text, #pokemon .text, #donut .text, #personal .text, #parks .text, #prototype2 .text {
         bottom: 80px;
     }
 }
